@@ -1,0 +1,13 @@
+data:
+  data: /content/drive/MyDrive/data/gpt-2-tokenized-data.csv.gz
+  output_dir: /content/drive/MyDrive/data/results
+  logging_dir: /content/drive/MyDrive/data/logs
+  logging_steps: 5000
+  save_steps: 5000
+
+model:
+  model_name: EleutherAI/gpt-neo-125M
+  max_seq_length: 2048
+  learning_rate: 2e-4
+  batch_size: 1
+  num_epochs: 1
